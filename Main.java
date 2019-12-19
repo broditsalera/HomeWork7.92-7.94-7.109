@@ -41,22 +41,22 @@ import java.util.Scanner;
 //}
 
 //Задача 7.109
-public class Main {
-    public static void main(String[] args){
-        Scanner in = new Scanner(System.in);
-        System.out.println("Введите первое число: ");
-        int a = in.nextInt();
-        System.out.println("Введите второе число: ");
-        int n = in.nextInt();
-        System.out.println("Наибольший общий делитель: " + third(n,a));
-    }
-    public static int third(int n, int a){
-        if (n == 0){
-            return a;
-        }
-        else {
-            return third(a % n,n);
-        }
-    }
-}
+//public class Main {
+//    public static void main(String[] args){
+//        Scanner in = new Scanner(System.in);
+//        System.out.println("Введите первое число: ");
+//        int a = in.nextInt();
+//        System.out.println("Введите второе число: ");
+//        int n = in.nextInt();
+//        System.out.println("Наибольший общий делитель: " + third(n,a));
+//    }
+//    public static int third(int n, int a){
+//        if (n == 0){
+//            return a;
+//        }
+//        else {
+//            return third(a % n,n);
+//        }
+//    }
+//}
 
